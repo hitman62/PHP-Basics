@@ -1,6 +1,8 @@
 
 <h1>PHP Basics</h1>
 
+<p><i>Updated 2/2/19</i></p>
+
 <p><a href="Syntax.php">Syntax</a></p>
 
 <p><a href="Variables.php">Variables</a></p>
@@ -27,11 +29,25 @@
 
 <p><a href="Arrays.php">Arrays</a></p>
 
+<p><a href="Sorting-Arrays.php">Sorting Arrays</a></p>
 
-<?php
-$a = array(1, 2, array("a", "b", "c"));
-var_dump($a);
-?>
+<p><a href="Superglobals.php">Superglobals</a></p>
+
+
+
+
+<h2>PHP Forms</h2>
+
+<p><a href="Form-Handling.php">Form Handling</a></p>
+
+<p><a href="Form-Validation.php">Form Validation</a></p>
+
+<p><a href="Form-Required.php">Form Required</a></p>
+
+<p><a href="Form-URL-Email.php">Form URL/Email</a></p>
+
+<p><a href="Form-Complete.php">Form Complete</a></p>
+
 
 
 <?php

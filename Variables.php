@@ -6,25 +6,40 @@ $x = 5;
 $y = 10.5;
 ?>
 
-<hr />
+
+
+<?php 
+function newTest() {
+$pabo = "sloppy";
+echo $pabo;
+}
+?> 
 
 <?php
-function myTest() {
-    $x = 5; // local scope
-    echo "<p>Variable x inside function is: $x</p>";
-} 
-
-myTest();
-
-// using x outside the function will generate an error
-echo "<p>Variable x outside function is: $x</p>";
+newTest();
 ?>
 
 <hr />
 
 <?php
-$x = 5;
-$y = 10;
+function myTest() {
+    $x = 8; // local scope
+    echo "<p>Local Variable x inside function is: $x</p>";
+    
+ 
+} 
+
+myTest();
+
+// using x outside the function will generate an error
+echo "<p>Global Variable x outside function is: $x</p>";
+?>
+
+<hr />
+
+<?php
+$x = 22.3;
+$y = 55;
 
 function myTest2() {
     global $x, $y;

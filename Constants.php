@@ -15,10 +15,10 @@ echo greeting;
 <hr />
 
 <?php
-define("GREETING", "Welcome to W3Schools.com!");
+define("newGREETING", "Welcome to W3Schools.com!");
 
 function myTest() {
-    echo GREETING;
+    echo newGREETING;
 }
  
 myTest();
